@@ -79,7 +79,7 @@ P01 -> P19
 | 57 | [UVA_12047](https://github.com/Danipiza/Competitive_Programming/blob/main/UVA/12047.cpp) | [Highest Paid Toll](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/57.pdf) |  | 
 | 58 | [UVA_12159](https://github.com/Danipiza/Competitive_Programming/blob/main/UVA/12159.cpp) | [Gun Fight](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/58.pdf) |  | 
 | 59 | [UVA_10309](https://github.com/Danipiza/Competitive_Programming/blob/main/UVA/10309.cpp) | [Turn the Lights Of](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/59.pdf) |  | 
-| 60 | [UVA_10269](https://github.com/Danipiza/Competitive_Programming/blob/main/UVA/10269.cpp) | [Adventure of Super Mario](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/80.pdf) |  | 
+| 60 | [UVA_10269](https://github.com/Danipiza/Competitive_Programming/blob/main/UVA/10269.cpp) | [Adventure of Super Mario](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/60.pdf) |  | 
 | P01 | [UVA_10566](https://github.com/Danipiza/Competitive_Programming/blob/main/UVA/10566.cpp) | [Crossed Ladders](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/P01.pdf) | Binary Search | 
 | P02 | [AR_650](https://github.com/Danipiza/Competitive_Programming/blob/main/AR/650.cpp) | [Oferta 3x2](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/P02.pdf) |  | 
 | P03 | [UVA_01172](https://github.com/Danipiza/Competitive_Programming/blob/main/UVA/01172.cpp) | [The Bridges of Kölsberg](https://github.com/Danipiza/Competitive_Programming/blob/main/Others/Statements/P03.pdf) |  | 
