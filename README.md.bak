@@ -18,10 +18,6 @@ MCBM: Maximum Cardinality Bipartite Matching
 KMP: Knuth–Morris–Pratt algorithm
 
 
-# TODO
-1 - 48
-P01 - P19
-
 ### Problems from PCOM
 | Nº | Judge | Name | Type | Algorithm |
 |:--:|--|--|:--:| :--: |

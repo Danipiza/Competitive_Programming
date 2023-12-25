@@ -1,8 +1,4 @@
-﻿// Nombre del alumno Daniel Pizarro
-// Usuario del Juez PC04
-
-
-#include <iostream>
+﻿#include <iostream>
 #include <iomanip>
 #include <fstream>
 #include <unordered_map>
