@@ -12,6 +12,29 @@
  
 ---
 
+## C
+### Sort array
+```
+int cmpfunc(const void * a, const void * b) {
+   return (*(int*)a-*(int*)b);
+}
+qsort(array, arraySize, sizeof(int), cmpfunc); 
+```
+### Allocate Matrix
+```
+int** ret = (int**)malloc(numsSize/3 * sizeof(int*));
+for (int i=0;i<numsSize/3;++i){
+    ret[i] = (int*)malloc(3*sizeof(int));
+}
+// return matrix in LeetCode
+*returnSize = rowSize;
+*returnColumnSizes = (int*)malloc(sizeof(int) * cont);
+for (int i = 0; i < cont; i++) {
+    (*returnColumnSizes)[i] = colSize;
+}
+```
+
+---
 
 ### Algorithms
 MCBM: Maximum Cardinality Bipartite Matching
