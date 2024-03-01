@@ -33,6 +33,12 @@ for (int i = 0; i < cont; i++) {
     (*returnColumnSizes)[i] = colSize;
 }
 ```
+### Allocate a string
+```
+char* ret = (char*)malloc((n+1)*sizeof(char));
+// CODIGO
+ret[n]='\0'; // Al final para guardarlo
+```
 
 ---
 
