@@ -18,8 +18,21 @@
 int cmpfunc(const void * a, const void * b) {
    return (*(int*)a-*(int*)b);
 }
-qsort(array, arraySize, sizeof(int), cmpfunc); 
+qsort(array, arraySize, sizeof(int), cmpfunc);
 ```
+### Sort 2D array (a[0])
+```
+int cmpfunc(const void * a, const void * b) {
+ const int  x = ((int **)a)[0][1];
+ const int  y = ((int **)b)[0][1];
+ if(x > y)
+  return 1;
+ else if(x < y)
+  return -1;
+ return 0;
+}
+```
+
 ### Allocate Matrix
 ```
 int** ret = (int**)malloc(numsSize/3 * sizeof(int*));
