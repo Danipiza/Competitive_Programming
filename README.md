@@ -40,10 +40,10 @@ for (int i=0;i<numsSize/3;++i){
     ret[i] = (int*)malloc(3*sizeof(int));
 }
 // return matrix in LeetCode
-*returnSize = rowSize;
-*returnColumnSizes = (int*)malloc(sizeof(int) * cont);
-for (int i = 0; i < cont; i++) {
-    (*returnColumnSizes)[i] = colSize;
+*returnSize=n;    
+*returnColumnSizes=(int*)malloc(sizeof(int)*n);
+for (i=0;i<n;i++) {
+    (*returnColumnSizes)[i]=m;
 }
 ```
 ### Allocate a string
