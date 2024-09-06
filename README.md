@@ -12,48 +12,11 @@
  
 ---
 
-## C
-### Sort array
-```
-int cmpfunc(const void * a, const void * b) {
-   return (*(int*)a-*(int*)b);
-}
-qsort(array, arraySize, sizeof(int), cmpfunc);
-```
-### Sort 2D array (a[0])
-```
-int cmpfunc(const void * a, const void * b) {
- const int  x = ((int **)a)[0][1];
- const int  y = ((int **)b)[0][1];
- if(x > y)
-  return 1;
- else if(x < y)
-  return -1;
- return 0;
-}
-```
+## Code Cheat Sheet
+### [C](https://github.com/Danipiza/Competitive_Programming/blob/main/.Others/cheat_sheet/C.md)
+### [Ruby](https://github.com/Danipiza/Competitive_Programming/blob/main/.Others/cheat_sheet/RUBY.md)
 
-### Allocate Matrix
-```
-int** ret = (int**)malloc(numsSize/3 * sizeof(int*));
-for (int i=0;i<numsSize/3;++i){
-    ret[i] = (int*)malloc(3*sizeof(int));
-}
-// return matrix in LeetCode
-*returnSize=n;    
-*returnColumnSizes=(int*)malloc(sizeof(int)*n);
-for (i=0;i<n;i++) {
-    (*returnColumnSizes)[i]=m;
-}
-```
-### Allocate a string
-```
-char* ret = (char*)malloc((n+1)*sizeof(char));
-// CODIGO
-ret[n]='\0'; // Al final para guardarlo
-```
-
----
+<hr>
 
 ### Algorithms
 MCBM: Maximum Cardinality Bipartite Matching
