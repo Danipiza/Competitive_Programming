@@ -1,5 +1,5 @@
 <h1 align="center">
-    LANGUAGE: <img src="https://skillicons.dev/icons?i=ruby" alt="C Language Icon" width="30" height="30" />
+    LANGUAGE: <img src="https://skillicons.dev/icons?i=c" alt="C Language Icon" width="30" height="30" />
 </h1>
 
 
