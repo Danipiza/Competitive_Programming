@@ -17,12 +17,13 @@
 4. [Characters](#characters)
 5. [Arrays](#arrays)
 6. [Sorting](#sorting)
-7. [Queue](#queue)
-8. [Deque](#deque)
-9. [Maps](#maps)
-10. [Sets](#sets)
-11. [Class](#class)
-12. [Comment](#comment)
+7. [ListNode](#listnode)
+8. [Queue](#queue)
+9. [Deque](#deque)
+10. [Maps](#maps)
+11. [Sets](#sets)
+12. [Class](#class)
+13. [Comment](#comment)
 
 
 ## Conditions
@@ -183,6 +184,23 @@ int compare(const void* a, const void* b) {
 
 qsort(nodes, n, sizeof(Node), compare);
 ```
+<hr>
+
+## ListNode
+```C
+struct ListNode {
+   int val;
+   struct ListNode* next;
+};
+
+struct ListNode* createNode(int val) {
+   struct ListNode* node=(struct ListNode*)malloc(sizeof(struct ListNode));
+   node->val=val;
+   node->next=NULL;
+   return node;
+}
+```
+
 <hr>
 
 ## Queue 
