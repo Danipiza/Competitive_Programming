@@ -54,13 +54,13 @@ puts a == b ? "equal" : "not equal"
 ```
 ### Operations:
 ```Ruby
-and	# AND.		      true if both conditions are true. false otherwise.
-or	# OR.		        true if one or more conditions are true. false otherwise.
-not	# NOT.		      Negates a boolean value.
-^	# XOR.		        Performs a logical exclusive OR.
+and	# AND.		true if both conditions are true. false otherwise.
+or	# OR.		true if one or more conditions are true. false otherwise.
+not	# NOT.		Negates a boolean value.
+^	# XOR.		Performs a logical exclusive OR.
 &	# Bitwise AND.  Performs a bitwise AND operation.
 |	# Bitwise OR.   Performs a bitwise OR operation.
-~ 	# Bitwise NOT. Flips all bits.
+~ 	# Bitwise NOT.  Flips all bits.
 ```
 
 <hr>
@@ -109,26 +109,26 @@ break	# Exits the loop completely.
 
 ## String
 ```Ruby
-"abc".length 		  # 3. 	   Length of the string.
-"abc".reverse 		  # "cba". Reverses the characters in the string.
-"abc".upcase 		  # "ABC". Converts all lowercase chars to uppercase.
-"ABC".downcase   	  # "abc". Converts all uppercase chars to lowercase.
-"abc".capitalize 	  # "Abc". Capitalizes the first letter.
+"abc".length 	      # 3.     Length of the string.
+"abc".reverse 	      # "cba". Reverses the characters in the string.
+"abc".upcase 	      # "ABC". Converts all lowercase chars to uppercase.
+"ABC".downcase        # "abc". Converts all uppercase chars to lowercase.
+"abc".capitalize      # "Abc". Capitalizes the first letter.
 "abc".gsub!(/a/, "d") # "dbc". Replaces all occurrences of 'a'.
 "abc".sub!(/a/, "d")  # "dbc". Replaces the first occurrence of 'a'.
-"1".to_i 			  # 1.	   String to int .
+"1".to_i 	      # 1.     String to int .
 
-"abc".chars 		  # ['a','b','c']. Transform into a list if chars.
+"abc".chars 	      # ['a','b','c']. Transform into a list if chars.
 ```
 
 ## Characters
 ```Ruby
-97.chr 			# Convert an ASCII code to a character
-'a'.ord 		# = 97. ASCII value
-'a'.upcase      # 'A'. Convert to uppercase.
-'A'.downcase    # 'a'. Convert to lowercase
-'a'.capitalize  # 'A'. Capitalize the character (if it's a letter)
-'a'.swapcase    # 'A'. Swap case (e.g., 'a' -> 'A', 'B' -> 'b')
+97.chr 		# = 'a' Convert an ASCII code to a character
+'a'.ord 	# = 97. ASCII value
+'a'.upcase      # 'A'.  Convert to uppercase.
+'A'.downcase    # 'a'.  Convert to lowercase
+'a'.capitalize  # 'A'.  Capitalize the character (if it's a letter)
+'a'.swapcase    # 'A'.  Swap case (e.g., 'a' -> 'A', 'B' -> 'b')
 ```
 
 <hr>
@@ -136,10 +136,10 @@ break	# Exits the loop completely.
 ## Arrays
 ###  Init.
 ```Ruby
-arr = [1, 2, 3]           	     # Create an array.
-arr = Array.new           	     # Create an empty array.
+arr = [1, 2, 3]           	 # Create an array.
+arr = Array.new           	 # Create an empty array.
 arr = Array.new(3) { |i| i }     # Create an array with values [0, 1, 2].
-arr = Array.new(n, 0) 		  	 # Create an array with n zeros.
+arr = Array.new(n, 0) 		 # Create an array with n zeros.
 arr=Array.new(n){Array.new(n,0)} # Create a 2D-array.
 ```
 ### Access
@@ -147,6 +147,7 @@ arr=Array.new(n){Array.new(n,0)} # Create a 2D-array.
 arr[0]	  # First element.
 arr[-1]   # Last element.
 arr[1..3] # Range of elements (inclusive).
+
 array.max/min # Get maximum/minimum value of the array.
 ```
 ### Add element 
@@ -273,7 +274,7 @@ deque.last          # At the end.
 ### Init:
 ```Ruby
 hash = { key_1 => val_1, key_2 => val_2 }   # Create a hash.
-hash = Hash.new(0)              			# Create an empty hash.
+hash = Hash.new(0)              	    # Create an empty hash.
 hash = {}
 ```
 ### Access/Set value:
@@ -282,7 +283,7 @@ hash[key] = val  # Add/Update.
 hash.delete(key) # Remove.
 hash.keys        # Get all keys.
 hash.values      # Get all values.
-hash[key] 	  	 # Get value by key.
+hash[key] 	 # Get value by key.
 hash.fetch(key)  # Get value by key (raises error if key doesn't exist).
 ```
 ### Iterate over the map:
@@ -306,7 +307,7 @@ mapN.empty? # Check if map is empty.
 ```Ruby
 require 'set'
 set = Set.new([val_1, val_2, val_3]) # Create a set.
-set = Set.new([]) 		 			 # Create an empty set.
+set = Set.new([]) 		     # Create an empty set.
 ```
 ### Add/Remove:
 ```Ruby
@@ -333,13 +334,13 @@ set.subtract([1])   # Remove multiple elements
 ```Ruby
 class Class
    attr_accessor: var_1 # Automatic Getter and Setter
-   attr_reader : var_2   # Automatic Getter 
+   attr_reader : var_2  # Automatic Getter 
    attr_writer : var_3  # Automatic Setter
    
    def initialize(name, age)
 	 @name = name 	# Class variable. One instance.
 	 @age = age 	# Class variable.
-	 @@done = false  # Shared class variable. All the instances.
+	 @@done = false # Shared class variable. All the instances.
    end
 
    def greet
